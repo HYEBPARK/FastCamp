@@ -1,8 +1,8 @@
-package D0119;
+package D0119.Inheritance;
 
 // vip 등급
 // 포인트 적립 비율 10%
-public class VIPCustomer extends Customer{
+public class VIPCustomer extends Customer {
 
     private String agentID;
     double salesRatio;

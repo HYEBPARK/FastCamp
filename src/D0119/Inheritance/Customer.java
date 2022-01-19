@@ -1,4 +1,4 @@
-package D0119;
+package D0119.Inheritance;
 
 // 고객들의 멤버십 관리
 // 일반고객과 VIPcustomer 의 서로 다른 서비스를 제공
