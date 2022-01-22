@@ -24,12 +24,13 @@ public interface Calc {
     }
 
     // private Method 는 interface 내부에서만 사용
+    // private Method 는 재정의 하지 않는다.
     // private Method 1. private
     private void myPrivateMethod(){
         System.out.println("myPrivateMethod");
     }
 
-    // private Method 2. private static
+    // private Method 2. private static => 인스턴스 생성 없이 사용 가능
     private static void myStaticMethod(){
         System.out.println("private static Method");
     }
