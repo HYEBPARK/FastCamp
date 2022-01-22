@@ -11,7 +11,7 @@ import java.util.Properties;
 
 public class UserInfoClient {
     public static void main(String[] args) throws IOException {
-        FileInputStream ifs = new FileInputStream("C:/Work/untitled/src/D0122/db.properties");
+        FileInputStream ifs = new FileInputStream("C:/Work/untitled/src/D0122/DAOinterface/db.properties");
         Properties prop = new Properties(); // pair로 읽을 수 있음
         prop.load(ifs);
         String dbType = prop.getProperty("DBTYPE");
